@@ -34,16 +34,3 @@
 </p>
 
 ---
-
-<p align="center">
-  <img src="https://raw.githubusercontent.com/Jaenact/Jaenact/output/github-contribution-grid-snake.svg" alt="snake animation"/>
-</p>
-
-
----
-
-<!-- Optional animation -->
-<p align="center">
-  <img src="https://raw.githubusercontent.com/Jaenact/Jaenact/output/github-contribution-grid-snake.svg" alt="snake animation"/>
-</p>
-
