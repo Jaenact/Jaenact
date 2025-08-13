@@ -33,7 +33,16 @@
 
 ## Recently Opened PRs
 <!--OPENED_PR_LIST_START-->
-Loading...
+- [Add Unix and Windows Command Injection Detection Template](https://github.com/projectdiscovery/nuclei-templates/pull/12821) — projectdiscovery/nuclei-templates · OPEN · 2025-08-07
+- [feat(sqli): Add multiple payloads and author to time-based-sqli template](https://github.com/projectdiscovery/nuclei-templates/pull/12791) — projectdiscovery/nuclei-templates · OPEN · 2025-08-05
+- [add CVE-2025-1302 detection template](https://github.com/projectdiscovery/nuclei-templates/pull/12724) — projectdiscovery/nuclei-templates · OPEN · 2025-07-26
+- [add CVE-2023-27163 template](https://github.com/projectdiscovery/nuclei-templates/pull/12723) — projectdiscovery/nuclei-templates · OPEN · 2025-07-26
+- [add CVE-2025-1302 detection template](https://github.com/projectdiscovery/nuclei-templates/pull/12717) — projectdiscovery/nuclei-templates · CLOSED · 2025-07-25
+- [현재 서비스에서 사용되지 않는 이전 파일 삭제](https://github.com/Jaenact/attack_web/pull/1) — Jaenact/attack_web · MERGED · 2025-07-16
+- [자기소개 PR 보내봅니다!](https://github.com/gy741/git-study/pull/8) — gy741/git-study · OPEN · 2025-07-15
+- [Add RCNN training pipeline](https://github.com/Jaenact/RCNN/pull/3) — Jaenact/RCNN · MERGED · 2025-06-08
+- [Add RCNN training pipeline](https://github.com/Jaenact/RCNN/pull/2) — Jaenact/RCNN · OPEN · 2025-06-08
+- [Add RCNN training script](https://github.com/Jaenact/RCNN/pull/1) — Jaenact/RCNN · OPEN · 2025-06-07
 <!--OPENED_PR_LIST_END-->
 
 ---
