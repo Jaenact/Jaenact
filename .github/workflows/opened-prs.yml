@@ -1,0 +1,65 @@
+name: Update Opened PRs
+
+on:
+  schedule:
+    - cron: "15 */12 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update-opened-prs:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - id: prlist
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const username = "Jaenact";
+            const query = `
+              query($q: String!, $first: Int!) {
+                search(type: ISSUE, query: $q, first: $first) {
+                  nodes {
+                    ... on PullRequest {
+                      title
+                      url
+                      repository { nameWithOwner }
+                      createdAt
+                      state
+                    }
+                  }
+                }
+              }
+            `;
+            const q = `is:pr author:${username} sort:created-desc`;
+            const res = await github.graphql(query, { q, first: 10 });
+            const items = res.search.nodes.map(pr => {
+              const d = new Date(pr.createdAt).toISOString().slice(0,10);
+              return `- [${pr.title}](${pr.url}) — ${pr.repository.nameWithOwner} · ${pr.state} · ${d}`;
+            });
+            core.setOutput("list", items.join("\n"));
+
+      - name: Update README section
+        run: |
+          LIST="${{ steps.prlist.outputs.list }}"
+          FILE="README.md"
+          START="<!--OPENED_PR_LIST_START-->"
+          END="<!--OPENED_PR_LIST_END-->"
+          awk -v start="$START" -v end="$END" -v content="$LIST" '
+            { 
+              if ($0 ~ start) { print; print content; skip=1; next }
+              if ($0 ~ end)   { skip=0 }
+              if (!skip) print
+            }' "$FILE" > README.tmp
+          mv README.tmp "$FILE"
+
+      - name: Commit & Push
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add README.md
+          git diff --staged --quiet || git commit -m "chore(readme): update opened PRs"
+          git push
