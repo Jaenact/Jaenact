@@ -7,7 +7,6 @@
 ---
 
 ## About Me
-
 - Security-focused developer  
 - Reverse engineering & low-level systems enthusiast  
 - Curious about the invisible layers of the web  
@@ -16,15 +15,32 @@
 ---
 
 ## Tech Stack
-
-<img src="https://img.shields.io/badge/Linux-000000?style=flat&logo=linux&logoColor=white" />
-<img src="https://img.shields.io/badge/C-00599C?style=flat&logo=c&logoColor=white" />
-<img src="https://img.shields.io/badge/Python-14354C?style=flat&logo=python&logoColor=white" />
-<img src="https://img.shields.io/badge/Bash-4EAA25?style=flat&logo=gnubash&logoColor=white" />
-<img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black" />
-<img src="https://img.shields.io/badge/Git-F05032?style=flat&logo=git&logoColor=white" />
+<p align="left">
+  <img src="https://img.shields.io/badge/Linux-000000?style=flat&logo=linux&logoColor=white" />
+  <img src="https://img.shields.io/badge/C-00599C?style=flat&logo=c&logoColor=white" />
+  <img src="https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white" />
+  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=000000" />
+  <img src="https://img.shields.io/badge/Bash-4EAA25?style=flat&logo=gnu-bash&logoColor=white" />
+</p>
 
 ---
+
+## Recently Merged PRs
+<!--MERGED_PR_LIST_START-->
+Loading...
+<!--MERGED_PR_LIST_END-->
+
+## Recently Opened PRs
+<!--OPENED_PR_LIST_START-->
+Loading...
+<!--OPENED_PR_LIST_END-->
+
+---
+
+<p align="center">
+  <sub>Always learning. Always adapting.</sub>
+</p>
+
 
 ## Stats
 
