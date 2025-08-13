@@ -27,7 +27,8 @@
 
 ## Recently Merged PRs
 <!--MERGED_PR_LIST_START-->
-Loading...
+- [현재 서비스에서 사용되지 않는 이전 파일 삭제](https://github.com/Jaenact/attack_web/pull/1) — Jaenact/attack_web · 2025-07-16
+- [Add RCNN training pipeline](https://github.com/Jaenact/RCNN/pull/3) — Jaenact/RCNN · 2025-06-13
 <!--MERGED_PR_LIST_END-->
 
 ## Recently Opened PRs
