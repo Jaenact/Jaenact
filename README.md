@@ -24,12 +24,3 @@
 </p>
 
 ---
-
-## Activity Overview
-<img src="./metrics.svg" width="100%" />
-
----
-
-<p align="center">
-  <sub>Always learning. Always adapting.</sub>
-</p>
