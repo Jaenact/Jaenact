@@ -32,5 +32,5 @@
 
 ## CVE 
 
-* **CVE-2025-66217**
-* **CVE-2025-66216**
+* **CVE-2025-66217** | Integer Underflow in MQTT Packet Parsing leading to Heap Buffer Overflow
+* **CVE-2025-66216** | Heap Buffer Overflow leading to RCE in `AIS::Message`
