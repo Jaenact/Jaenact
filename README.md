@@ -34,3 +34,5 @@
 
 * **CVE-2025-66217** | Integer Underflow in MQTT Packet Parsing leading to Heap Buffer Overflow
 * **CVE-2025-66216** | Heap Buffer Overflow leading to RCE in `AIS::Message`
+* **CVE-2025-67268** | Heap-based Out-of-Bounds Write in NMEA2000 via Unvalidated Satellite Count
+* **CVE-2025-67269** | gpsd: CPU Exhaustion and DoS via Integer Underflow in NAVCOM Packet Parsing
